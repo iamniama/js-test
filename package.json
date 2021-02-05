@@ -1,0 +1,28 @@
+{
+  "name": "js-test",
+  "version": "1.0.0",
+  "description": "testing with mocha and chai",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamniama/js-test.git"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "chai"
+  ],
+  "author": "JCNorth/IAMNIAMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamniama/js-test/issues"
+  },
+  "homepage": "https://github.com/iamniama/js-test#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1"
+  }
+}
