@@ -79,6 +79,21 @@ describe('index file', function() {
         expect(doMath('div', 2, 2)).to.equal(1)
       })
     })
+    describe('doMath(mod)', function(){
+      it('should accurately return the modulus of the 2 given numbers', function(){
+        expect(doMath('mod', 3, 2)).to.equal(1)
+      })
+    })
+    describe('doMath(sub)', function(){
+      it('should accurately return the difference of the 2 given numbers', function(){
+        expect(doMath('sub', 3, 2)).to.equal(1)
+      })
+    })
+    describe('doMath(exp)', function(){
+      it('should accurately return num1 to the power of num2', function(){
+        expect(doMath('exp', 3, 3)).to.equal(27)
+      })
+    })
   })
   
 }

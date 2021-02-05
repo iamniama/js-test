@@ -28,6 +28,8 @@ const doMath = (...args) => {
             return args[1] / args[2]
         case "mod":
             return args[1] % args[2]
+        case "exp":
+            return args[1] ** args[2]
         default:
             return false
     
